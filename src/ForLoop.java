@@ -30,7 +30,7 @@ public class ForLoop
 }*/
 
 /*
-// Labeled for loop
+// Labeled for loop 1
 public class ForLoop
 {
 	public static void main(String args [])
@@ -54,7 +54,7 @@ public class ForLoop
 }
 */
 
-//Labeled for loop
+//Labeled for loop 2
 public class ForLoop
 {
 	public static void main(String args [])
