@@ -1,0 +1,39 @@
+
+public class armstrong {
+    static boolean Amstr (int n)
+    {
+        int temp=n,rem=0,sum=0,c=0;
+        while(temp!=0)
+        {
+            temp=temp/10;
+            c++;
+        }
+        temp=n;
+        while(temp!=0)
+        {
+            rem=temp%10;
+            int f=1;
+            for(int i=1;i<=c;i++)
+            {
+                f=f*rem;
+
+            }
+            sum=f+sum;
+            temp=temp/10;
+
+        }
+        if(n==sum)
+        
+        return true;
+        else 
+        return false;
+    
+
+    }
+    public static void main(String[] args) {
+        Scanner ip=new Scanner(System.in);
+        int n=ip.nextInt();
+        System.out.println(Amstr(n)?"Amstrong ":"not Amstrong");
+    }
+   
+}
